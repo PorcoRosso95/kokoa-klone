@@ -8,6 +8,7 @@
   box-sizing: border-box;
   height: 30px;
   position: fixed;
+  z-index: 2;
 }
 .status-bar__column {
   width: 33%;
