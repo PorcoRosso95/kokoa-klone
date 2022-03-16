@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/clock.js"></script>
+  <title>Chat - Kokoa Talk</title>
+</head>
+
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <span class="material-icons">wifi</span>
+    </div>
+    <div class="status-bar__column">
+      <span id="clock">18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>90%</span>
+      <span class="material-icons battery">battery_6_bar</span>
+      <span class="material-icons">bolt</span>
+    </div>
+  </div>
+
+  <header class="">
+    <div class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <span class="material-icons-outlined chevron-left">chevron_left</span>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__title">Lee</span>
+      </div>
+      <div class="alt-header__column">
+        <span class="material-icons search setting-search">search</span>
+        <span class="material-icons-outlined search">menu</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+
+    <div class="chat-timestamp">
+      Tuesday, June 30, 2020
+    </div>
+  
+    <div class="message-row message-row1">
+      <img src="https://www.wallpaperup.com/uploads/wallpapers/2014/01/24/236949/ce85077b47981e0df68d9408f0e6d1b6.jpg" alt="friend's photo">
+      <div class="message-row__content">
+        <span class="message__author">Lee</span>
+        <div class="message__info">
+          <span class="message__bubble">Hi!</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row message-row__own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class="message__bubble">What's up?</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <span class="material-icons-outlined chat-icon">add_box</span>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message..">
+      <span class="material-icons-outlined chat-icon">sentiment_very_satisfied</span>
+      <button>
+        <span class="material-icons-outlined chat-icon">arrow_upward</span>
+      </button>
+    </div>
+  </form>
+   
+    
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+
+</body>
+
+</html>

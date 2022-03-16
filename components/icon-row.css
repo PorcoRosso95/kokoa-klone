@@ -1,0 +1,35 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-row__icon:last-child {
+  margin-right: 20px;
+}
+.icon-row__icon span:last-child {
+  text-align: center;
+}
+.calendar,
+.drive,
+.emoticon,
+.theme,
+.account,
+.openchat {
+  font-size: 50px;
+}
+.icon-row1 {
+  display: flex;
+  justify-content:space-between;
+  margin: 30px;
+  padding-top: 20px;
+}
+.icon-row1 .icon-row__icon:nth-child(n+3) {
+  visibility: hidden;
+}
+

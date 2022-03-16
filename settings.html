@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/clock.js"></script>
+  <title>Settings - Kokoa Talk</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <span class="material-icons">wifi</span>
+    </div>
+    <div class="status-bar__column">
+      <span id="clock">18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>90%</span>
+      <span class="material-icons battery">battery_6_bar</span>
+      <span class="material-icons">bolt</span>
+    </div>
+  </div>
+
+  <header class="">
+    <div class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <span class="material-icons-outlined chevron-left">chevron_left</span>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__title">Settings</span>
+      </div>
+      <div class="alt-header__column">
+        <span class="material-icons search setting-search">search</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <ul class="settings-list">
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">campaign</span>
+        <span>Notices</span>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">science</span>
+        <span>Kokoa Lab</span>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">info</span>
+        <span>Version</span>
+        <i>Latest Version</i>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">lock</span>
+        <span>Privacy</span>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">notifications</span>
+        <span>Notifications</span>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">person_outline</span>
+        <a href="friends.html">
+          <span>Friends</span>
+        </a>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons set-icon">chat_bubble_outline</span>
+        <a href="chats.html">
+          <span>Chats</span>
+        </a>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">light_mode</span>
+        <span>Display</span>
+      </li>
+      <li class="settings-set">
+        <span class="material-icons-outlined set-icon">imagesearch_roller</span>
+        <span>Themes</span>
+        <i>Default theme</i>
+      </li>
+    </ul>
+  </main>
+
+   
+    
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <span class="material-icons person">person_outline</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">1</span>
+          <span class="material-icons chat">chat_bubble_outline</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <span class="material-icons search">search</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <span class="nav__notification2">.</span>
+          <span class="material-icons more">more_horiz</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+
+</body>
+
+</html>

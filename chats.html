@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/clock.js"></script>
+  <title>Chats - Kokoa Talk</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <span class="material-icons">wifi</span>
+    </div>
+    <div class="status-bar__column">
+      <span id="clock">18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>90%</span>
+      <span class="material-icons battery">battery_6_bar</span>
+      <span class="material-icons">bolt</span>
+    </div>
+  </div>
+
+  <div class="screen-header"> 
+    <h1 class="screen-header__title">Chats</h1>
+    <div class="screen-header__icons">
+      <span class="material-icons search1">search</span>
+      <span class="material-icons-outlined sms">textsms</span>
+      <span class="material-icons-outlined note">music_note</span>
+      <span class="material-icons-outlined settings">settings</span>
+    </div>
+  </div>
+
+  <main class="user-container">
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar user-component__avatar" src="https://avatars.githubusercontent.com/u/98641153" alt="photo">
+          <div class="user-component__text">
+            <h4 class="user-component__title">Lee</h4>
+            <h6 class="user-component__subtitle">Please check My KoKoa Accoount Info</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__time">21:22</div>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </a>
+  </main>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <span class="material-icons person">person_outline</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">1</span>
+          <span class="material-icons chat">chat_bubble</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <span class="material-icons search">search</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <span class="nav__notification2">.</span>
+          <span class="material-icons more">more_horiz</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+
+</body>
+
+</html>
